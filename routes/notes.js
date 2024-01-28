@@ -6,7 +6,7 @@ var router = express.Router();
 
 // 接続情報を設定
 const { MongoClient } = require("mongodb");
-const uri = "mongodb+srv://test:s_and_m15@cluster0.gglc8mh.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://xxxxxxx@cluster0.gglc8mh.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri);
 
 // corsミドルウェアを使用
